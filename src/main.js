@@ -73,7 +73,7 @@ window.addEventListener(`load`, () => {
       // Действие, в случае успешной регистрации ServiceWorker
     }).catch(() => {
     // Действие, в случае ошибки при регистрации ServiceWorker
-  });
+    });
 });
 
 window.addEventListener(`online`, () => {
